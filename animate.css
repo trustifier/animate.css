@@ -643,6 +643,35 @@
   transform-origin: center;
 }
 
+@-webkit-keyframes blurIn {
+    from {
+        -webkit-filter: blur(60px);
+        filter: blur(60px);
+    }
+
+    to {
+        -webkit-filter: none;
+        filter: none;
+    }
+}
+
+@keyframes blurIn {
+    from {
+        -webkit-filter: blur(60px);
+        filter: blur(60px);
+    }
+
+    to {
+        -webkit-filter: none;
+        filter: none;
+    }
+}
+
+.blurIn {
+    -webkit-animation-name: blurIn;
+    animation-name: blurIn;
+}
+
 @-webkit-keyframes bounceIn {
   from, 20%, 40%, 60%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);

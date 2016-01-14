@@ -1,0 +1,13 @@
+@keyframes blurIn {
+    from {
+        filter: blur(60px);
+    }
+
+    to {
+        filter: none;
+    }
+}
+
+.blurIn {
+    animation-name: blurIn;
+}
