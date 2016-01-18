@@ -645,25 +645,37 @@
 
 @-webkit-keyframes blurIn {
     from {
-        -webkit-filter: blur(60px);
-        filter: blur(60px);
+        -webkit-filter: blur(24px);
+        filter: blur(24px);
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
     }
 
     to {
         -webkit-filter: none;
         filter: none;
+        -webkit-transform: none;
+        transform: none;
     }
 }
 
 @keyframes blurIn {
     from {
-        -webkit-filter: blur(60px);
-        filter: blur(60px);
+        -webkit-filter: blur(24px);
+        filter: blur(24px);
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
     }
 
     to {
         -webkit-filter: none;
         filter: none;
+        -webkit-transform: none;
+        transform: none;
     }
 }
 

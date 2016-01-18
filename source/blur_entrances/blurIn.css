@@ -1,10 +1,13 @@
 @keyframes blurIn {
     from {
-        filter: blur(60px);
+        filter: blur(24px);
+        transform-origin: center;
+        transform: scaleY(0);
     }
 
     to {
         filter: none;
+        transform: none;
     }
 }
 
